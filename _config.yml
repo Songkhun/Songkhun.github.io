@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Geocompute"
+title                    : "GeoCompute"
 title_separator          : "-"
 name                     : &name "Songkhun Boonchaisuk"
 description              : &description "Songkhun Boonchaisuk's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "GeoCompute"
-  pronouns         : # example: "He/him"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  pronouns         : "He/him"  
+  bio              : "Geophysicist/Lecturer"
+  location         : "Kanchanaburi Campus"
   employer         : "Manidol University"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : "https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo"
+  email            : "songkhun.boo@mahidol.ac.th" 
 
   # Academic websites
   academia         : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Songkhun"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
