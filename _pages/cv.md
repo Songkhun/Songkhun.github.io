@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **2013** Ph.D. (Physics) Mahidol University, Thailand
+- **2007** M.Sc. (Physics) Mahidol University, Thailand
+- **2004**  B.SC. (Physics) Khon Kaen University, Thailand
 
 Work experience
 ======
