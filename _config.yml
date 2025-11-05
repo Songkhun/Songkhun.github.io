@@ -23,7 +23,7 @@ repository               : "Songkhun.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "songkhun.jpg"
   name             : "GeoCompute"
   pronouns         : "He/him"  
   bio              : "Geophysicist/Lecturer"
