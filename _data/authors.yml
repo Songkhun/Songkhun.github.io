@@ -1,18 +1,10 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  name        : "Songkhun Boonchaisuk"
+  uri         : "https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo"
+  email       : "songkhun.boo@mahidol.ac.th"
+  bio         : "https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo"
+  avatar      : "songkhun.jpg"
+  Facebook    : "https://www.facebook.com/jobphy"
+  LinkedIn    : "https://www.linkedin.com/in/songkhun-boonchaisuk-0331831b3/"
