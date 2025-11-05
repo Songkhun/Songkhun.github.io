@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Retrospective earthquake spatial forecasting: magnetotelluric insights into fluid-driven intraplate seismicity in northern Thailand from 1994 to 2024"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
