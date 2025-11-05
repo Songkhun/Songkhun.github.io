@@ -35,14 +35,14 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AKzYXQ0n01_M5tZhXtVko-hAPrQO8CaINxrCtbNg5ioOY3EXIfeEVhJ6b8wesD4FcxFlUiHzh6V3lWeQ0CElLA&user=r6LINnMAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : #
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : #
+  researchgate     : "https://www.researchgate.net/profile/Songkhun-Boonchaisuk?ev=hdr_xprf"
+  scopus           : "https://www.sciencedirect.com/search?qs=songkhun%20boonchaisuk"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -54,16 +54,16 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : "https://www.facebook.com/jobphy"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "https://www.instagram.com/jobtimus/"
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/songkhun-boonchaisuk-0331831b3/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -76,7 +76,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "https://www.youtube.com/@SongkhunBoonchaisuk"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
