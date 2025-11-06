@@ -2,7 +2,7 @@
 title: "The regional moment tensor of the 5 May 2014 Chiang Rai earthquake (Mw = 6.5), Northern Thailand, with its aftershocks and its implication to the stress and the instability of the Phayao Fault Zone"
 collection: publications
 category: manuscripts
-permalink: /publication/2016-boonchaisuk
+permalink: /publication/2016-Noisagool
 excerpt: 'This paper is about focal mechanism of 5 May 2014 earthquake and its aftershocks. Fingerprint: Fault plane solutions, Moment tensor inversion, Stress inversion, Phayao Fault Zone, Northern Thailand'
 date: 2016-09-01
 venue: 'Journal of Asian Earth Sciences'
