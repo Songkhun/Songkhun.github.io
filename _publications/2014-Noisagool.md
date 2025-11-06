@@ -1,5 +1,5 @@
 ---
-title: "Thailand s crustal properties from tele-seismic receiver function studies"
+title: "Thailand&rsquo;s crustal properties from tele-seismic receiver function studies"
 collection: publications
 category: conferences
 permalink: /publication/2014-Noisagool
