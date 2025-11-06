@@ -1,9 +1,9 @@
 ---
-title: "Thailand s crustal properties from tele-seismic receiver function studies"
+title: "Thailand&rsquo;s crustal properties from tele-seismic receiver function studies"
 collection: publications
 category: conferences
 permalink: /publication/2014-Noisagool
-excerpt: 'This paper is about finding Thailand s crustal thickness using receiver function. Fingerprint: Poisson Ratio, Crustal Evolution, Bouguer Anomaly'
+excerpt: 'This paper is about finding Thailand&rsquo;s crustal thickness using receiver function. Fingerprint: Poisson Ratio, Crustal Evolution, Bouguer Anomaly'
 date: 2014-02-17
 venue: 'Tectonophysics'
 paperurl: 'https://doi.org/10.1016/j.tecto.2014.06.014'
