@@ -8,6 +8,7 @@ date: 2013-05-01
 venue: 'Gondwana Research'
 slidesurl: 'https://songkhun.github.io/files/slides3.pdf'
 paperurl: 'https://doi.org/10.1016/j.gr.2012.08.009'
+bibtexurl: 'https://songkhun.github.io/files/2013-boonchaisuk.bib'
 citation: 'Boonchaisuk, S., Siripunvaraporn, W., & Ogawa, Y. (2013). &quot;Evidence for middle Triassic to Miocene dual subduction zones beneath the Shan-Thai terrane, western Thailand from magnetotelluric data.&quot; <i>ondwana Research</i>. 23(4), 1607-1616.'
 ---
 
