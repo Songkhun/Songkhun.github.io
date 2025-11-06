@@ -76,3 +76,6 @@ Teaching
 Service and leadership
 ======
 * Head of Geoscience Department, Mahidol University, Kanchanaburi Campus
+* Mahidol University Professional Standards Framework ( MUPSF - level 2 )
+
+https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo
