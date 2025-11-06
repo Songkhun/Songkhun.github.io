@@ -1,14 +1,13 @@
 ---
-title: "Evidence for middle Triassic to Miocene dual subduction zones beneath the Shan–Thai terrane, western Thailand from magnetotelluric data"
+title: "Thailand s crustal properties from tele-seismic receiver function studies"
 collection: publications
-category: manuscripts
-permalink: /publication/2013-Boonchaisuk
-excerpt: 'This paper is about crustal structure study using Magnetotelluric survey at Kanchaburi.Figerprint: Crustal structure, Magnetotelluric, Subduction Zone, Shan-Thai'
-date: 2013-05-01
-venue: 'Gondwana Research'
-slidesurl: 'https://songkhun.github.io/files/slides3.pdf'
-paperurl: 'https://doi.org/10.1016/j.gr.2012.08.009'
-citation: 'Boonchaisuk, S., Siripunvaraporn, W., & Ogawa, Y. (2013). &quot;Evidence for middle Triassic to Miocene dual subduction zones beneath the Shan-Thai terrane, western Thailand from magnetotelluric data.&quot; <i>ondwana Research</i>. 23(4), 1607-1616.'
+category: conferences
+permalink: /publication/2014-Noisagool
+excerpt: 'This paper is about finding Thailand s crustal thickness using receiver function. Fingerprint: Poisson Ratio, Crustal Evolution, Bouguer Anomaly'
+date: 2014-02-17
+venue: 'Tectonophysics'
+paperurl: 'https://doi.org/10.1016/j.tecto.2014.06.014'
+citation: 'Noisagool, S., Boonchaisuk, S., Pornsopin, P. & Siripunvaraporn, W. (2014). &quot;Thailand&rsquo;s crustal properties from tele-seismic receiver function studies.&quot; <i>Tectonophysics</i>. 632(C),64-75.'
 ---
 
-Kanchanaburi province, western Thailand, is in the middle of Shan-Thai terrane. Paleomagnetic and geological data support the hypothesis of dual subduction zones beneath the Shan-Thai terrane. During the late Triassic there was a westward subduction in the east where the Lampang-Chiang Rai block subducted beneath the Shan-Thai terrane. In addition, in the early Tertiary, the western Burma terrane subducted underneath the Shan-Thai in the west resulting in an eastward subduction. A pioneer survey of this region was therefore conducted using magnetotelluric (MT) techniques with the aim of finding deep structures associated with these ancient subduction zones. 39 MT stations were deployed to cover most of the province. Resistivity structures are obtained from the 3-D inversion. The near surface resistivity structures correspond well with the surface geology. The mid and lower crusts are conductive and this is interpreted as the crusts being composed of mafic granulites of 3\% porosity in which the remnant dehydrated fluid was accumulated during the subduction. In addition, the westward and eastward subduction zones generated mafic/ultramafic intrusions which appear as two conductive zones on the east and west, respectively. These two conductors and the conductive lower crust support the hypotheses of the middle Triassic to Miocene dual subduction zones.
+Thirty-three seismic stations throughout Thailand were used to infer the crustal thickness, Vp/Vs ratio and Poisson's ratio of Thailand using the receiver function technique. The crustal thickness increases from around 31. km in the Shan-Thai terrane (STT) in the west to around 38. km in the Khorat Plateau (KP-ICT) located in the Indochina terrane (ICT) in the east. Similarly, the mean Vp/Vs and Poisson's ratios derived here show that Vp/Vs increases from 1.69 to 1.73 from the STT to the KP-ICT, while Poisson's ratio increases from 0.23 to 0.25 from the STT to the KP-ICT. Our results are well supported by geological evidence found at the surface. In addition, we incorporate gravity and magnetic data to constrain the crustal properties of Thailand. The low Poisson's ratios show that the crust of Thailand is mostly felsic. Only the lower crust of KP-ICT is different as it is thicker, denser and has higher mafic composition than the other terranes of Thailand. This special feature in the KP-ICT is required to explain the lower Bouguer anomaly in the KP-ICT. In addition, we interpret the crustal evolution and deformation of these terranes and compare our results with the results from the Vietnam network of the ICT.
