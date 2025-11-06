@@ -3,7 +3,7 @@ title: "Two-Dimensional Direct Current (DC) Resistiviy Inversion: Data Space Occ
 collection: publications
 category: manuscripts
 permalink: /publication/2008-boonchaisuk
-excerpt: 'This paper is about how to develop 2D DC resistivity inversion in MATLAB using Data Space technique. KEYWORD: Data Space, Finite Element, Smooth Structure'
+excerpt: 'This paper is about how to develop 2D DC resistivity inversion in MATLAB using Data Space technique. Fingerprint: Data Space, Finite Element, Optimization, Smooth Structure'
 date: 2008-06-22
 venue: 'Physics of the Earth and Planetary Interiors'
 slidesurl: 'https://songkhun.github.io/files/slides1.pdf'
