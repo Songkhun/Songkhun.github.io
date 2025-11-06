@@ -6,7 +6,6 @@ permalink: /publication/2025-Amatyakul
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-10-24
 venue: 'Earth, Planets and Space'
-slidesurl: 'https://songkhun.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1186/s40623-025-02301-x'
 bibtexurl: 'https://songkhun.github.io/files/2024-Amatyakul.bib'
 citation: 'Amatyakul, P., Boonchaisuk, S., Nualkhao, P., Ogawa, Y., & Siripunvaraporn, W. (2025). &quot;Retrospective earthquake spatial forecasting: magnetotelluric insights into fluid-driven intraplate seismicity in northern Thailand from 1994 to 2024.&quot; <i>Earth, Planets and Space</i>. 77(166).'
