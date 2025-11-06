@@ -34,10 +34,11 @@ Work experience
   * Matterial: https://github.com/Songkhun/SIP2025
   * Supervisor: Dr. Seong Kon Lee
 * June 9 - August 31, 2015: [Seismology Skill Building Workshop](https://www.earthscope.org/event/2025-seismology-skill-building-workshop-ssbw/)
+  * Online training 
   * Miami University 
 
 * September 2 - September 25, 2015: [GMT for Geophysics](https://www.earthscope.org/event/2025-technical-short-course-introduction-to-generic-mapping-tool-gmt-for-geophysics/)
-  * Earthscope.org
+  * Online training Earthscope.org
   * Course Design: Federico Esteban, Ph.D. Researcher, IGEBA Instituto de Geociencias Básicas, Aplicadas y Ambientales de Buenos Aires, in collaboration with the EarthScope Consortiu
   
 Skills
