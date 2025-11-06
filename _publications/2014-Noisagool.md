@@ -7,6 +7,7 @@ excerpt: 'This paper is about finding Thailand&rsquo;s crustal thickness using r
 date: 2014-02-17
 venue: 'Tectonophysics'
 paperurl: 'https://doi.org/10.1016/j.tecto.2014.06.014'
+bibtexurl: 'https://songkhun.github.io/files/2014-Noisagool.bib'
 citation: 'Noisagool, S., Boonchaisuk, S., Pornsopin, P. & Siripunvaraporn, W. (2014). &quot;Thailand&rsquo;s crustal properties from tele-seismic receiver function studies.&quot; <i>Tectonophysics</i>. 632(C),64-75.'
 ---
 
