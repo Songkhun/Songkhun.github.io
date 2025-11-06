@@ -3,7 +3,7 @@ title: "Exploring the shallow geothermal fluid reservoir of Fang geothermal syst
 collection: publications
 category: manuscripts
 permalink: /publication/2016-Amatyakul
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
+excerpt: 'This paper is about geothermal survey using Magnetotelluric. Fingerprint: Geothermal, Fang hot spring'
 date: 2016-11-01
 venue: 'Geothermics'
 paperurl: 'https://doi.org/10.1016/j.geothermics.2016.08.003'
