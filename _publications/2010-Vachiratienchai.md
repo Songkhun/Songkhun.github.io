@@ -8,7 +8,7 @@ date: 2010-10-01
 venue: 'Physics of the Earth and Planetary Interiors'
 slidesurl: 'https://songkhun.github.io/files/slides2.pdf'
 paperurl: 'https://doi.org/10.1016/j.pepi.2010.09.008'
-citation: 'Vachiratienchai, C., Boonchaisuk, S. & Siripunvaraporn,W. (2010). &quot;A hybrid finite difference-finite element method to incorporate topography for 2D direct current (DC) resistivity modeling
+citation: 'Vachiratienchai, C., Boonchaisuk, S. & Siripunvaraporn, W. (2010). &quot;A hybrid finite difference-finite element method to incorporate topography for 2D direct current (DC) resistivity modeling
 .&quot; <i>Physics of the Earth and Planetary Interiors</i>. 183(3-4),426-434.'
 ---
 
