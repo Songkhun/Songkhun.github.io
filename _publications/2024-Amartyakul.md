@@ -2,9 +2,9 @@
 title: "Retrospective earthquake spatial forecasting: magnetotelluric insights into fluid-driven intraplate seismicity in northern Thailand from 1994 to 2024"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2024-Amatyakul
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2024-10-01
 venue: 'Journal 1'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
