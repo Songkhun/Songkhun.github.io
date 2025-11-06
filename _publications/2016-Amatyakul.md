@@ -7,6 +7,7 @@ excerpt: 'This paper is about geothermal survey using Magnetotelluric. Fingerpri
 date: 2016-11-01
 venue: 'Geothermics'
 paperurl: 'https://doi.org/10.1016/j.geothermics.2016.08.003'
+bibtexurl: 'https://songkhun.github.io/files/2016-Amatyakul.bib'
 citation: 'Amatyakul, P., Boonchaisuk, S., Rung-Arunwan, T., Vachiratienchai, C., Wood, S. H., Pirarai, K., Fuangswasdi, A., & Siripunvaraporn, W. (2016). &quot;Exploring the shallow geothermal fluid reservoir of Fang geothermal system, Thailand via a 3-D magnetotelluric survey.&quot; <i>Geothermics</i>. 64,516-526.'
 ---
 
