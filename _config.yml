@@ -55,7 +55,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/jobphy"
+  facebook         : "jobphy"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : "jobtimus"
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/songkhun-boonchaisuk-0331831b3/"
+  linkedin         : "songkhun-boonchaisuk-0331831b3"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -76,7 +76,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "https://www.youtube.com/@SongkhunBoonchaisuk"
+  youtube          : "SongkhunBoonchaisuk"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
