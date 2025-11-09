@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "By changing nothing, nothing changes." — Tony Robbins
+title: "By changing nothing, nothing changes. (Tony Robbins)"
 author_profile: true
 redirect_from: 
   - /about/
