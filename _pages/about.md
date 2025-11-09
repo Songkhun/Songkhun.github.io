@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "By changing nothing, nothing changes. (Tony Robbins)"
+title: "GeoCompute"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+By changing nothing, nothing changes. (Tony Robbins)
 
 About me
 ======
