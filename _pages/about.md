@@ -26,4 +26,4 @@ I am particularly interested in the application of machine learning to geophysic
 KIGAM2025: SIP2025(Korea)
 ![Taebak](/images/JobHelicopter.jpg)
 
-"If you don’t like something, change it. If you can’t change it, change your attitude." (Maya Angelou)
+If you don’t like something, change it. If you can’t change it, change your attitude. (Maya Angelou)
