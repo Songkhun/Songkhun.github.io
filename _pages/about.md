@@ -24,6 +24,7 @@ Getting started
 I am particularly interested in the application of machine learning to geophysics and geology. Although I am relatively new to machine learning, I have recently developed and taught an Introduction to Python course for our students. In the near future, I plan to expand this into a series of courses in computer simulation and Intro duction to data science, aiming to establish a Data Science major for Geoscience students and other divisions at our campus
 
 KIGAM2025: SIP2025(Korea)
+
 ![Taebak](/images/JobHelicopter.jpg)
 
 "If you don’t like something, change it. If you can’t change it, change your attitude." (Maya Angelou)
