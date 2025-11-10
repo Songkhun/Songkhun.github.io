@@ -14,15 +14,19 @@ Phan Earthquake May 5, 2014
 Seismogram at MUKA station, Mahidol University, Kanchanaburi campus (~620 km from epicenter)
 ======
 
-displacment (nm)
 ![disp](/images/MUKA_disp2014Phan.png)
+
+displacment (nm)
 ---
-velocity (nm/sec)
 ![disp](/images/MUKA_vel2014Phan.png)
+
+velocity (nm/sec)
 ---
-acceleration (nm/sec^2)
+
 ![disp](/images/MUKA_acc2014Phan.png)
 
+acceleration (nm/sec^2)
+---
 
 The biggest earthquake in Thailand?
 ------
