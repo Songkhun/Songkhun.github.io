@@ -28,5 +28,5 @@ velocity (nm/sec)
 acceleration (nm/sec^2)
 ---
 
-The biggest earthquake in Thailand?
+Is this one the biggest earthquake in Thailand?
 ------
