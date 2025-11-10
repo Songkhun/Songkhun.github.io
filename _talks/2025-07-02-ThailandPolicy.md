@@ -11,3 +11,4 @@ location: "Seoul, Korea"
 I represented the Thai participants by giving a presentation titled "An Overview of Thailand's Science and
 Technology Policy"
 
+[More information here](https://github.com/Songkhun/SIP2025/blob/main/Thailand_STI_policy.pdf)
