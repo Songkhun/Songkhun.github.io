@@ -54,7 +54,8 @@ Skills
   * Seismometer installation (Nanometric, Taurus, Trillum, CMG, Guralp)
   * GPR
 * Geophysical software
-  * RES1D, RINVERT, IPI2WIN, RES2DINV, RES2DMOD,ProsysII, ElectreII, Apollo, Atlas, SAC, Dimas, SEISAN, SeisComp3, GMT
+  * RES1D, RINVERT, IPI2WIN, RES2DINV, RES2DMOD, ProsysII, ElectreII,
+  * Apollo, Atlas, SAC, Dimas, SEISAN, SeisComp3, GMT
   * FracPaQ
 
 Publications
