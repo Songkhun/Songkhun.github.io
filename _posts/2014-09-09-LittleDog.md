@@ -1,5 +1,5 @@
 ---
-title: 'Notebook: Black sheep do Business'
+title: 'Notebook: หมาน้อยสอนรวย'
 date: 2014-09-09
 permalink: /posts/2014-09-09-LittleDog
 tags:
