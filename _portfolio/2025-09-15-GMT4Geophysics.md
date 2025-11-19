@@ -1,6 +1,6 @@
 ---
 title: "Intro to GMT for Geophysics"
-excerpt: "20-hour online course introducing scientific computing and data visualization with GMT, within the context of seismology and geodesy<br/><img src='/images/GMT.png'>"
+excerpt: "20-hour online course introducing scientific computing and data visualization with GMT, within the context of seismology and geodesy<br/><img src='/images/GMT.png'> set width='200'/>"
 collection: portfolio
 ---
 
