@@ -1,5 +1,5 @@
 ---
-title: 'Seminar: Black sheep do Business'
+title: 'Seminar: แกะดำทำธุรกิจ'
 date: 2014-09-08
 permalink: /posts/2014-09-08-BlackSheep
 tags:
