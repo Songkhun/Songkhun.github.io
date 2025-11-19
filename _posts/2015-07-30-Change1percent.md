@@ -1,5 +1,5 @@
 ---
-title: 'Notebook: ส่ิงที่ค้นพบระหว่างนั่งเฉยเฉย'
+title: 'Notebook: เปลี่ยนวิธีการทำงาน แค่ 1% คุณก็แซงหน้าคน 99% ได้แล้ว'
 date: 2015-07-30
 permalink: /posts/2015-07-30-Change1percent
 tags:
