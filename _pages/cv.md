@@ -18,12 +18,12 @@ Education
 Research Interests
 ======
 - Machine Learning
-- Python/Matlab programing and simulation
-- Magnetotelluric
-- DC resisitivity
+- Python/MATLAB programing and simulation
+- Magnetotelluric (MT)
+- DC resistivity
 - GPR
 - HVSR
-- Seismic refraction/reflectrion
+- Seismic refraction/reflection
 - Active fault, Seismology and Earthquake Hazard
 
 Work experience
