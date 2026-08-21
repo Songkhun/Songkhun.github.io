@@ -57,11 +57,11 @@
   {% if page.header.image %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+  {% elsif site.og_image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
   {% else %}
     <meta name="twitter:card" content="summary">
-    {% if site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
-    {% endif %}
   {% endif %}
 
   {% if seo_author_twitter %}
@@ -89,10 +89,12 @@
 {% if site.social %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
+      "@context" : "https://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
+      "url" : {{ seo_url | jsonify }}{% if site.og_image %},
+      "image" : {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}{% endif %}{% if site.description %},
+      "description" : {{ site.description | jsonify }}{% endif %},
       "sameAs" : {{ site.social.links | jsonify }}
     }
   </script>
@@ -128,20 +130,6 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if site.social.type or site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": {{ site.social.type | default: "Person" | jsonify }},
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "url": {{ seo_url | jsonify }}{% if site.og_image %},
-      "image": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}{% endif %}{% if site.description %},
-      "description": {{ site.description | jsonify }}{% endif %}{% if site.social.links %},
-      "sameAs": {{ site.social.links | jsonify }}{% endif %}
-    }
-  </script>
-{% endif %}
-
 {% if page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
@@ -150,6 +138,5 @@
   <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta name="twitter:card" content="summary_large_image">
 {% endif %}
 <!-- end Open Graph protocol -->
