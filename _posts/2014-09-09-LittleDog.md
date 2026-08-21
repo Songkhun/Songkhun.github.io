@@ -2,6 +2,8 @@
 title: 'Notebook: หมาน้อยสอนรวย'
 date: 2014-09-09
 permalink: /posts/2014-09-09-LittleDog
+categories:
+  - "Reading notes"
 tags:
   - Education
   - Finance

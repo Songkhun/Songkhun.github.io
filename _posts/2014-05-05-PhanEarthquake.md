@@ -2,6 +2,8 @@
 title: '2014 Phan earthquake (M6.3)'
 date: 2014-08-14
 permalink: /posts/2014-05-05-PhanEarthquake
+categories:
+  - "Research"
 tags:
   - eartquake
   - seismology

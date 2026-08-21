@@ -2,6 +2,8 @@
 title: 'Notebook: เกษตรพอเพียง'
 date: 2013-09-17
 permalink: /posts/2013-09-17-Aggreculture
+categories:
+  - "Reading notes"
 tags:
   - life
   - business

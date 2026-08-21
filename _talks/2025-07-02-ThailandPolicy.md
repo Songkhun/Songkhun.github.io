@@ -3,7 +3,7 @@ title: "An Overview of Thailand's Science and Technology Policy"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-07-02-ThailandPolicy
-venue: "Seoul, Korea, SIP2025"
+venue: "Scientist Invitation Program (SIP2025)"
 date: 2025-07-02
 location: "Seoul, Korea"
 ---

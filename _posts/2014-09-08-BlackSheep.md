@@ -2,6 +2,8 @@
 title: 'Seminar: แกะดำทำธุรกิจ'
 date: 2014-09-08
 permalink: /posts/2014-09-08-BlackSheep
+categories:
+  - "Reading notes"
 tags:
   - Education
   - Finance

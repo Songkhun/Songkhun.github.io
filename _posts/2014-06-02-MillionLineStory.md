@@ -2,6 +2,8 @@
 title: 'NoteBook: นิทานล้านบรรทัด 2'
 date: 2013-11-20
 permalink: /posts/2014-06-02-MillionLineStory
+categories:
+  - "Reading notes"
 tags:
   - Education
   - life

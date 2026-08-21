@@ -13,12 +13,19 @@ Education
 ======
 - **2013** : Ph.D. (Physics) Mahidol University, Thailand
 - **2007** : M.Sc. (Physics) Mahidol University, Thailand
-- **2004** : B.SC. (Physics) Khon Kaen University, Thailand
+- **2004** : B.Sc. (Physics) Khon Kaen University, Thailand
+
+Appointments
+======
+* **Present** : Lecturer, Geoscience Division, Mahidol University, Kanchanaburi Campus, Thailand
+  * Head of the Geoscience Division
+  * Teaching geophysics, computer programming and data science
+  * [Staff profile](https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo)
 
 Research Interests
 ======
 - Machine Learning
-- Python/MATLAB programing and simulation
+- Python/MATLAB programming and simulation
 - Magnetotelluric (MT)
 - DC resistivity
 - GPR
@@ -26,36 +33,34 @@ Research Interests
 - Seismic refraction/reflection
 - Active fault, Seismology and Earthquake Hazard
 
-Work experience
+Professional development
 ======
-* July-September 2025: 90 days Traing program [SIP2025](https://sipkorea2025.kr)
-  * [KIGAM](https://www.kigam.re.kr)
-  * Duties includes: Machine Learning @ Daejoen Korea
-  * Matterial: https://github.com/Songkhun/SIP2025
+* **July – September 2025** : 90-day training program, [SIP2025](https://sipkorea2025.kr)
+  * [KIGAM](https://www.kigam.re.kr), Daejeon, Korea
+  * Focus: Machine Learning for geoscience
+  * Materials: [github.com/Songkhun/SIP2025](https://github.com/Songkhun/SIP2025)
   * Supervisor: Dr. Seong Kon Lee
-* June 9 - August 31, 2025: [Seismology Skill Building Workshop](https://www.earthscope.org/event/2025-seismology-skill-building-workshop-ssbw/)
-  * Online training 
-  * Miami University 
+* **June 9 – August 31, 2025** : [Seismology Skill Building Workshop](https://www.earthscope.org/event/2025-seismology-skill-building-workshop-ssbw/)
+  * Online training, Miami University
+* **September 2 – 25, 2025** : [Introduction to GMT for Geophysics](https://www.earthscope.org/event/2025-technical-short-course-introduction-to-generic-mapping-tool-gmt-for-geophysics/)
+  * Online short course, EarthScope
+  * Course design: Federico Esteban, Ph.D., IGEBA (Instituto de Geociencias Básicas, Aplicadas y Ambientales de Buenos Aires), in collaboration with the EarthScope Consortium
 
-* September 2 - September 25, 2025: [GMT for Geophysics](https://www.earthscope.org/event/2025-technical-short-course-introduction-to-generic-mapping-tool-gmt-for-geophysics/)
-  * Online training Earthscope.org
-  * Course Design: Federico Esteban, Ph.D. Researcher, IGEBA Instituto de Geociencias Básicas, Aplicadas y Ambientales de Buenos Aires, in collaboration with the EarthScope Consortiu
-  
 Skills
 ======
 * Computer
-  * Microsoft office(Word, Excel, PowerPoint, Visio), Sketchup
-  * Computer Language (Matlab, Python, Frotran, Pascal), Visual studio code
-  * LogSeg
-* Geophysical Instrument
-  * DC resisitvity meter (IRIS syscal R1 plus)
+  * Microsoft Office (Word, Excel, PowerPoint, Visio), SketchUp
+  * Programming languages: MATLAB, Python, Fortran, Pascal; Visual Studio Code
+  * Logseq
+* Geophysical instruments
+  * DC resistivity meter (IRIS Syscal R1 Plus)
   * Magnetotelluric (Phoenix, KMS)
-  * Seismic (Geometric StrataVisor NZ, Geode)
-  * Seismometer installation (Nanometric, Taurus, Trillum, CMG, Guralp)
+  * Seismic (Geometrics StrataVisor NZ, Geode)
+  * Seismometer installation (Nanometrics, Taurus, Trillium, CMG, Guralp)
   * GPR
 * Geophysical software
-  * RES1D, RINVERT, IPI2WIN, RES2DINV, RES2DMOD, ProsysII, ElectreII,
-  * Apollo, Atlas, SAC, Dimas, SEISAN, SeisComp3, GMT
+  * RES1D, RINVERT, IPI2WIN, RES2DINV, RES2DMOD, ProsysII, Electre II
+  * Apollo, Atlas, SAC, Dimas, SEISAN, SeisComP3, GMT
   * FracPaQ
 
 Publications
@@ -78,7 +83,6 @@ Teaching
   
 Service and leadership
 ======
-* Head of Geoscience Department, Mahidol University, Kanchanaburi Campus
-* Mahidol University Professional Standards Framework ( MUPSF - level 2 )
-
-https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo
+* Head of the Geoscience Division, Mahidol University, Kanchanaburi Campus
+* Mahidol University Professional Standards Framework (MUPSF), Level 2 — awarded February 2025
+* Organizing committee, [TSER 2023](/portfolio/2023-10-24-TSER2023/) — 1st Thailand Symposium on Earthquake Research, 24–25 October 2023

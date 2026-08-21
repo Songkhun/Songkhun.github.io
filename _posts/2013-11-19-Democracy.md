@@ -2,6 +2,8 @@
 title: 'Notebook: ประชาธิปไตยบนเส้นขนาน'
 date: 2013-11-19
 permalink: /posts/2013-11-19-Democracy
+categories:
+  - "Reading notes"
 tags:
   - life
   - Philosophy

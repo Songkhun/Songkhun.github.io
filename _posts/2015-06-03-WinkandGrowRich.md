@@ -2,6 +2,8 @@
 title: 'Notebook: Wink and Grow Rich คิดเป็นเห็นทางรวย'
 date: 2015-06-03
 permalink: /posts/2015-06-03-WinkandGrowRich
+categories:
+  - "Reading notes"
 tags:
   - life
   - finance

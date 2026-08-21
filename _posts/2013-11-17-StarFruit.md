@@ -2,6 +2,8 @@
 title: 'Notebook: มะเฟืองรอฝาน'
 date: 2013-11-17
 permalink: /posts/2013-11-17-StarFruit
+categories:
+  - "Reading notes"
 tags:
   - life
   - history

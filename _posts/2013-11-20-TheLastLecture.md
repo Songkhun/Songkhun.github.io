@@ -2,6 +2,8 @@
 title: 'NoteBook: The Last Lecture'
 date: 2013-11-20
 permalink: /posts/2013-11-20-TheLastLecture
+categories:
+  - "Reading notes"
 tags:
   - Education
   - life

@@ -2,6 +2,8 @@
 title: 'NoteBook: ความสำเร็จสร้างได้ทุกวัน'
 date: 2014-06-08
 permalink: /posts/2014-06-08-JohnMaxwel
+categories:
+  - "Reading notes"
 tags:
   - Education
   - life

@@ -6,10 +6,9 @@ permalink: /publication/2010-Vachiratienchai
 excerpt: 'This paper is about combine FDM and FEM technique to incorporate topography. Fingerprint: Finite Element Aproximation, Poisson Equation, Mesh Generatioin, Memory consideratioin'
 date: 2010-10-01
 venue: 'Physics of the Earth and Planetary Interiors'
-slidesurl: 'https://songkhun.github.io/files/slides2.pdf'
 paperurl: 'https://doi.org/10.1016/j.pepi.2010.09.008'
-bibtexurl: 'https://songkhun.github.io/files/2010-Vachiratienchai.bib'
-citation: 'Vachiratienchai, C., Boonchaisuk, S. & Siripunvaraporn, W. (2010). &quot;A hybrid finite difference-finite element method to incorporate topography for 2D direct current (DC) resistivity modeling
+bibtexurl: '/files/2010-Vachiratienchai.bib'
+citation: 'Vachiratienchai, C., <b>Boonchaisuk, S.</b> & Siripunvaraporn, W. (2010). &quot;A hybrid finite difference-finite element method to incorporate topography for 2D direct current (DC) resistivity modeling
 .&quot; <i>Physics of the Earth and Planetary Interiors</i>. 183(3-4),426-434.'
 ---
 

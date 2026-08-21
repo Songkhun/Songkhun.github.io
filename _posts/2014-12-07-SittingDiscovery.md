@@ -2,6 +2,8 @@
 title: 'Notebook: สิ่งที่ค้นพบระหว่างนั่งเฉยเฉย'
 date: 2014-12-07
 permalink: /posts/2014-12-07-SittingDiscovery
+categories:
+  - "Reading notes"
 tags:
   - Inspiration
   - Philosophy

@@ -2,6 +2,8 @@
 title: 'Notebook: เปลี่ยนวิธีการทำงาน แค่ 1% คุณก็แซงหน้าคน 99% ได้แล้ว'
 date: 2015-07-30
 permalink: /posts/2015-07-30-Change1percent
+categories:
+  - "Reading notes"
 tags:
   - work
   - Project Management
