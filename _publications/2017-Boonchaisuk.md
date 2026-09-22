@@ -1,6 +1,6 @@
 ---
 title: "3-D magnetotelluric imaging of the Phayao
-Fault Zone, Northern Thailand: Evidence for saline Ruid in the source region of the 2014 Chiang Rai earthquake"
+Fault Zone, Northern Thailand: Evidence for saline fluid in the source region of the 2014 Chiang Rai earthquake"
 collection: publications
 category: manuscripts
 permalink: /publication/2017-boonchaisuk
