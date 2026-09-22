@@ -3,7 +3,7 @@ title: "High-resolution 3-D S-velocity structure in the D″ region at the weste
 collection: publications
 category: manuscripts
 permalink: /publication/2020-Suzuki
-excerpt: 'This paper is about S-velocty structure in the D region at the western margin of the Pacific LLSVP. Fingerprint: Seismic array in Thailand, low Vs anomalies, small-scale plumes, paleoslabs, D″ structure, LLSVP margin.'
+excerpt: 'This paper is about S-velocity structure in the D region at the western margin of the Pacific LLSVP. Fingerprint: Seismic array in Thailand, low Vs anomalies, small-scale plumes, paleoslabs, D″ structure, LLSVP margin.'
 date: 2020-10-01
 venue: 'Physics of the Earth and Planetary Interiors'
 paperurl: 'https://doi.org/10.1016/j.pepi.2020.106544'
