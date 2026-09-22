@@ -1,5 +1,5 @@
 ---
-title: "Two-Dimensional Direct Current (DC) Resistiviy Inversion: Data Space Occam’s Approach"
+title: "Two-Dimensional Direct Current (DC) Resistivity Inversion: Data Space Occam’s Approach"
 collection: publications
 category: manuscripts
 permalink: /publication/2008-boonchaisuk
