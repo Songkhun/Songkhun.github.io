@@ -3,7 +3,7 @@ title: "Seismic velocity structure of the upper inner core in the north polar re
 collection: publications
 category: manuscripts
 permalink: /publication/2021-Ohtaki
-excerpt: 'This paper is about New PKPbc and PKIKP data are observed at a temporary broadband array (TSAR) in Thailand. Fingleprint: TSAR'
+excerpt: 'This paper is about New PKPbc and PKIKP data are observed at a temporary broadband array (TSAR) in Thailand. Fingerprint: TSAR'
 date: 2021-02-01
 venue: 'Physics of the Earth and Planetary Interiors'
 paperurl: 'https://doi.org/10.1016/j.pepi.2020.106636'
