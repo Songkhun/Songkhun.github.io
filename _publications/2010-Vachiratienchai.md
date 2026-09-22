@@ -3,7 +3,7 @@ title: "A hybrid finite difference-finite element method to incorporate topograp
 collection: publications
 category: manuscripts
 permalink: /publication/2010-Vachiratienchai
-excerpt: 'This paper is about combine FDM and FEM technique to incorporate topography. Fingerprint: Finite Element Aproximation, Poisson Equation, Mesh Generatioin, Memory consideratioin'
+excerpt: 'This paper is about combine FDM and FEM technique to incorporate topography. Fingerprint: Finite Element Approximation, Poisson Equation, Mesh Generatioin, Memory consideratioin'
 date: 2010-10-01
 venue: 'Physics of the Earth and Planetary Interiors'
 paperurl: 'https://doi.org/10.1016/j.pepi.2010.09.008'
