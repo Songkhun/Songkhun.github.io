@@ -26,7 +26,7 @@ author:
   avatar           : "songkhun.png"
   name             : "Songkhun Boonchaisuk"
   pronouns         : "He/him"  
-  bio              : "Geophysicist/Lecturer"
+  bio              : "Asst. Prof. · Geophysicist"
   location         : "Kanchanaburi Campus"
   employer         : "Mahidol University"
   uri              : "https://ka.mahidol.ac.th/staff-Profile/th/songkhun.boo"
@@ -140,7 +140,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og-card.png" # Social media default site image
-og_description           : "Geophysicist and Lecturer at Mahidol University, Kanchanaburi Campus — magnetotellurics, DC resistivity, seismology and earthquake hazard in Thailand."
+og_description           : "Assistant Professor of Geophysics at Mahidol University, Kanchanaburi Campus — magnetotellurics, active faults, earthquake hazard and machine learning for geoscience in Thailand."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
