@@ -27,6 +27,12 @@ Notebooks for seismic refraction processing and interpretation.
 **[ShakeMap](https://github.com/Songkhun/ShakeMap)** · Jupyter Notebook  
 Notebook for producing shake maps.
 
+## Apps
+
+**[TypeRush](https://github.com/Songkhun/TypeRush)** · TypeScript  
+A dark-mode typing trainer for English and Thai (Kedmanee), with timed tests, drills built from
+your weakest keys, an arcade mode and a daily streak. Runs in the browser or as a Mac app.
+
 ## Teaching and reference
 
 **[SIP2025](https://github.com/Songkhun/SIP2025)**  
