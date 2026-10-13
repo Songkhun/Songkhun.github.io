@@ -29,6 +29,13 @@ Notebook for producing shake maps.
 
 ## Visualisation
 
+**[Kanchanaburi-3D-MT](https://github.com/Songkhun/Kanchanaburi-3D-MT)** · Python  
+A 90-second animation of the first 3D magnetotelluric crustal model in Thailand, beneath
+Kanchanaburi (WSINV3DMT, 39 stations): depth slices, moving cross-sections and the 10 Ω·m
+isosurface, with stations, fault traces and reservoir outlines. Includes the
+[video](https://github.com/Songkhun/Kanchanaburi-3D-MT/raw/main/Kanchanaburi_3D_MT_model.mp4),
+still frames, and the CPU rendering script that produced them.
+
 **[Phan-ChiangRai-3D-MT](https://github.com/Songkhun/Phan-ChiangRai-3D-MT)** · Python  
 A 90-second animation of a 3D magnetotelluric resistivity model of the crust beneath Phan,
 Chiang Rai (WSINV3DMT, 40 stations): depth slices, moving cross-sections and the 10 Ω·m
