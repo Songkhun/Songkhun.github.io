@@ -27,6 +27,15 @@ Notebooks for seismic refraction processing and interpretation.
 **[ShakeMap](https://github.com/Songkhun/ShakeMap)** · Jupyter Notebook  
 Notebook for producing shake maps.
 
+## Visualisation
+
+**[Phan-ChiangRai-3D-MT](https://github.com/Songkhun/Phan-ChiangRai-3D-MT)** · Python  
+A 90-second animation of a 3D magnetotelluric resistivity model of the crust beneath Phan,
+Chiang Rai (WSINV3DMT, 40 stations): depth slices, moving cross-sections and the 10 Ω·m
+isosurface, with stations and fault traces. Includes the
+[video](https://github.com/Songkhun/Phan-ChiangRai-3D-MT/raw/main/Phan_ChiangRai_3D_MT_model.mp4),
+still frames, and the CPU rendering script that produced them.
+
 ## Apps
 
 **[TypeRush](https://github.com/Songkhun/TypeRush)** · TypeScript  
