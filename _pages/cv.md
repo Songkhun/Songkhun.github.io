@@ -104,21 +104,7 @@ redirect_from:
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-# Selected conference presentations
-
-- **2018** : Relocation and focal mechanism of local earthquakes in Thailand and neighbouring countries from 2014 to 2017. 8th International Conference on Applied Geophysics, Songkhla, Thailand (oral, **Best Oral Presentation**)
-- **2018** : 3-D magnetotelluric imaging of the Phayao Fault Zone, northern Thailand: evidence for saline fluid in the source region of the Chiang Rai earthquake. 8th International Conference on Applied Geophysics, Songkhla, Thailand (oral)
-- **2018** : Preliminary result of a 2-D magnetotelluric survey across the Three Pagodas and Sri Sawat fault zones. 8th International Conference on Applied Geophysics, Songkhla, Thailand (poster)
-- **2017** : Three-dimensional resistivity structure beneath the Phayao fault zone: the biggest earthquake in Thailand (5 May 2014). IAG-IASPEI Joint Scientific Assembly, Kobe, Japan (poster)
-- **2016** : Shear-wave velocity structure beneath Thailand: preliminary result. International Conference on Tectonics of Northwestern Indochina, Chiang Mai, Thailand (oral)
-- **2016** : Three-dimensional resistivity structure beneath the Phayao fault zone, northern Thailand: preliminary result. 23rd Electromagnetic Induction Workshop, Chiang Mai, Thailand (poster)
-- **2012** : Evidence for Mesozoic subduction beneath the middle of the Shan-Thai terrane, Kanchanaburi, western Thailand, from magnetotelluric data. 6th International Conference on Applied Geophysics, Kanchanaburi, Thailand (oral)
-- **2012** : 3-D electromagnetic imaging of the NE Japan forearc near Zao volcano. 21st IAGA WG 1.2 Workshop on Electromagnetic Induction in the Earth, Darwin, Australia (poster)
-- **2010** : Three-dimensional crustal resistivity structure beneath Kanchanaburi Province, western Thailand. 20th IAGA WG 1.2 Workshop on Electromagnetic Induction in the Earth, Giza, Egypt (poster)
-- **2008** : Two-dimensional DC resistivity forward modelling: finite element method. 4th International Conference on Applied Geophysics, Chiang Mai, Thailand (poster)
-- **2007** : Two-dimensional DC resistivity inversion: finite element method. 33rd Congress on Science and Technology of Thailand, Nakhon Si Thammarat (oral)
-
-# Talks
+# Talks and conference presentations
 
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
