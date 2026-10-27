@@ -116,6 +116,29 @@ redirect_from:
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
+# Supervision
+
+Main advisor for undergraduate senior projects (KAGS490 Senior Project in Geoscience), B.Sc. in Geoscience, Mahidol University, Kanchanaburi Campus.
+
+- **2025 – 2026** (academic year 2568)
+  - 3D static modeling of petroleum reservoirs for reserve estimation in the Suphanburi Basin, Thailand (co-supervised with PTTEP)
+  - Rock physics feasibility study for CO₂ storage using a P-wave-only fluid substitution approach in the Suphanburi Basin (co-supervised with PTTEP)
+  - Basin configuration analysis through 3D seismic interpretation and structural modeling of the Suphanburi Basin, Thailand (co-supervised with PTTEP)
+  - Lithology classification using machine learning for hydrocarbon potential zones
+- **2024 – 2025** (academic year 2567)
+  - Channel and subtle fault identification using 3D seismic attributes and well logging in the Suphanburi Basin, Thailand
+  - Utilization of ground-penetrating radar and horizontal-to-vertical spectral ratio for spatial analysis of sediment distribution in Takua Pa, Phang Nga, Thailand
+  - Examining committee member for eight further senior projects
+- **2023 – 2024** (academic year 2566)
+  - A preliminary study of traveltime anomalies of seismic waves: insight into structural geology beneath Thailand (co-supervised with Dr. Sutthipong Noisagool)
+  - Groundwater potential zones in granite from 2D electrical resistivity tomography at Khlong Kiu, Ban Bueng, Chonburi, and Wang Krachae, Sai Yok, Kanchanaburi
+  - Preliminary assessment of carbonate rocks as carbon dioxide storage in Kanchanaburi Province, western Thailand
+- **2022 – 2023** (academic year 2565)
+  - Vertical electrical sounding for groundwater at Ban Nong Wang, Yang Kham Subdistrict, Nong Ruea District, Khon Kaen Province
+  - Earthquake hazard assessment of active faults in southern Thailand
+  - Feasibility study of ancient routes using geospatial analysis techniques
+  - Rock classification from image patches using a convolutional neural network
+
 # Service and leadership
 
 - Head of Geoscience Programs, Mahidol University, Kanchanaburi Campus
