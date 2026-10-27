@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Songkhun Boonchaisuk"
-excerpt: "Geophysicist and Lecturer at Mahidol University, Kanchanaburi Campus. Magnetotellurics, DC resistivity, seismology and earthquake hazard in Thailand."
+excerpt: "Geophysicist and Assistant Professor at Mahidol University, Kanchanaburi Campus. Magnetotellurics, DC resistivity, seismology and earthquake hazard in Thailand."
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ By changing nothing, nothing changes. (Tony Robbins)
 
 About me
 --------
-I am currently a Lecturer and Head of the Geoscience Division at Mahidol University, Kanchanaburi Campus, Thailand. 
+I am currently an Assistant Professor and Head of Geoscience Programs at Mahidol University, Kanchanaburi Campus, Thailand. 
 I teach courses in Geophysics and Computer Programming. During my Master’s degree, I developed a forward modeling and inversion program for Direct Current (DC) Resistivity data by using MATLAB, resulting in a publication (Boonchaisuk et al., 2008). 
 For my Ph.D., I led a survey team to study the crustal structure of Kanchanaburi Province using magnetotelluric and receiver function techniques, leading to Thailand’s first publication in this field (Boonchaisuk et al., 2013). 
 My work involved installing seismic stations, data acquisition, data processing, and inversion, which marked the beginning of my interest in seismology. 
@@ -28,6 +28,7 @@ I am particularly interested in the application of machine learning to geophysic
 
 News
 ----
+- **October 2026** — Built [Kanchanaburi GeoGuard](/portfolio/2026-10-17-GeoGuard/), an AI geohazard watch and community-reporting system, for the MU AI Development Challenge 2026.
 - **October 2025** — New paper in *Earth, Planets and Space*: [magnetotelluric insights into fluid-driven intraplate seismicity in northern Thailand, 1994–2024](/publication/2025-Amatyakul).
 - **September 2025** — Completed *Introduction to GMT for Geophysics*, a 20-hour EarthScope short course.
 - **August 2025** — Presented [*The Crustal Structure Study in Thailand*](/talks/2025-08-08-KIGAM) at KIGAM, Daejeon, Korea.
