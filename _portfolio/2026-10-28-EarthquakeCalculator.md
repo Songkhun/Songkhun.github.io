@@ -11,6 +11,7 @@ app downloads its seismograms from EarthScope (IRIS), picks the P and S arrivals
 epicentre from S − P times and computes the magnitude with the formulas from the lecture. It runs
 on Google Apps Script with a Google Sheet behind it, so it needs no server and no installation.
 
+[Open the app](https://script.google.com/a/macros/mahidol.ac.th/s/AKfycbyRiBkjIhMe-3MNUII2b9dC8mnGYd9TXvXwgwqMJxIR9kT48ftkOZ07IPd-O0DLb7gdCg/exec) (sign in with a Google account) ·
 [View the project on GitHub](https://github.com/Songkhun/earthquake-calculator)
 
 ### What students do
@@ -20,7 +21,9 @@ on Google Apps Script with a Google Sheet behind it, so it needs no server and n
    inside the app.
 2. **Check the picks.** Each station's record is shown as ground displacement in µm, with the
    automatic P and S picks drawn as lines. A pick that looks wrong can be dragged to the right
-   place, and everything after it updates at once.
+   place, and everything after it updates at once. Each record can be zoomed in time and
+   amplitude, shown as displacement, velocity or raw counts, and band-pass filtered (1–5 Hz
+   velocity makes a small P onset easy to see).
 3. **Read the distances.** S − P gives Δ for every station from the iasp91 travel-time table.
 4. **Locate the epicentre.** A circle of radius Δ is drawn around each station on a map, and the
    app finds the point that best fits them, next to the USGS epicentre for comparison.
