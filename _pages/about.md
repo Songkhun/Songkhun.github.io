@@ -28,6 +28,7 @@ I am particularly interested in the application of machine learning to geophysic
 
 News
 ----
+- **November 2026** — Released [Deep Time Kanchanaburi](/portfolio/2026-10-03-DeepTimeKanchanaburi/), a bilingual interactive page on 470 million years of Kanchanaburi geology ([source on GitHub](https://github.com/Songkhun/TectonicTH)).
 - **October 2026** — Published the [Thailand earthquake catalog 2014–2017](/portfolio/2018-03-23-EQ-catalog/) (2,238 relocated events and 87 moment-tensor solutions) as open CSV data on GitHub.
 - **October 2026** — Built [Kanchanaburi GeoGuard](/portfolio/2026-10-17-GeoGuard/), an AI geohazard watch and community-reporting system, for the MU AI Development Challenge 2026.
 - **October 2025** — New paper in *Earth, Planets and Space*: [magnetotelluric insights into fluid-driven intraplate seismicity in northern Thailand, 1994–2024](/publication/2025-Amatyakul).
