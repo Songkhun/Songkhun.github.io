@@ -23,3 +23,10 @@ How it was built
 ----------------
 
 The page is one self-contained HTML file with no network requests, so it works offline. Python scripts fetch and simplify the data once: paleo-coastlines from the GPlates Web Service (TorsvikCocks2017 model), GTS2020 polarity chrons, the GEM Global Active Faults Database and Natural Earth. The browser code uses D3 and Canvas, and 245 automated tests (pytest and `node --test`) cover the build scripts and page logic.
+
+Licence
+-------
+
+- **Code:** [MIT](https://github.com/Songkhun/TectonicTH/blob/main/LICENSE).
+- **Teaching content** (events, evidence, fossils, tectonic models and sutures): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse and adapt it freely with credit: *"Deep Time Kanchanaburi" by Songkhun Boonchaisuk, Mahidol University, CC BY 4.0*.
+- **Third-party data** keep their own licences, including the GEM active faults (CC BY-SA 4.0) and Natural Earth (public domain). See [LICENSE-CONTENT](https://github.com/Songkhun/TectonicTH/blob/main/LICENSE-CONTENT) for the full list.
