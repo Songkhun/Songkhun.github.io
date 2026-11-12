@@ -23,3 +23,9 @@ How it was built
 ----------------
 
 Two Jupyter notebooks (English and Thai) solve each example symbolically with SymPy and numerically with NumPy/SciPy, with Matplotlib figures. The app is one HTML file: sliders drive live Plotly charts, and MathJax renders the formulas and explanations. Data sets are synthetic with realistic values, so every result can be reproduced.
+
+Licence
+-------
+
+- **All material** (notebooks, app, examples, explanations and quiz questions): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse and adapt it freely with credit: *"GeoCalculus: Calculus in the Geosciences" by Songkhun Boonchaisuk, Mahidol University, CC BY 4.0*. See [LICENSE](https://github.com/Songkhun/GeoCalculus/blob/main/LICENSE).
+- The app loads MathJax, Plotly and Google Fonts from public CDNs; these keep their own licences.
