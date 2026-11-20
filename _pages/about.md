@@ -28,6 +28,7 @@ I am particularly interested in the application of machine learning to geophysic
 
 News
 ----
+- **November 2026** — Published a [visual summary](/files/hermes_2day_summary.html) of the two-day workshop Practical AI Agents with Hermes at Mahidol University ([details](/portfolio/2026-11-20-Hermes2DaySummary/)).
 - **November 2026** — Released [HeroForge](/portfolio/2026-11-18-HeroForge/), a turn-based fantasy strategy game in Python and pygame with hex-grid battles, towns and an AI opponent, all art and sound generated in code ([source on GitHub](https://github.com/Songkhun/heroforge)).
 - **November 2026** — Released [GeoCalculus Lab](/portfolio/2026-11-12-GeoCalculus/), 46 bilingual geoscience examples, quizzes and a course map for SCMA 111 Calculus, as an [interactive app](/files/geocalculus_app.html) and Jupyter notebooks ([on GitHub](https://github.com/Songkhun/GeoCalculus)).
 - **November 2026** — Released [Deep Time Kanchanaburi](/portfolio/2026-10-03-DeepTimeKanchanaburi/), a bilingual interactive page on 470 million years of Kanchanaburi geology ([source on GitHub](https://github.com/Songkhun/TectonicTH)).

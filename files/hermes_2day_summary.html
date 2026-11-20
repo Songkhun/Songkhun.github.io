@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Two-Day Summary</title>
+<style>
+:root{
+  --bg:#f7f8fa; --surface:#ffffff; --ink:#16202c; --muted:#5b6675; --line:#dde2e8;
+  --accent:#1d3557; --accent-soft:#e7edf5; --warm:#c2571a; --warm-soft:#fbeee5;
+  --ok:#2d7a4f; --ok-soft:#e5f3ea; --violet:#5b4a9e; --violet-soft:#eeeaf8;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11161d; --surface:#18202a; --ink:#e7ecf2; --muted:#9aa6b4; --line:#2a3542;
+    --accent:#8fb3e0; --accent-soft:#1f2c3c; --warm:#f0a070; --warm-soft:#3a2518;
+    --ok:#7cc79a; --ok-soft:#183025; --violet:#b3a5ef; --violet-soft:#272040;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11161d; --surface:#18202a; --ink:#e7ecf2; --muted:#9aa6b4; --line:#2a3542;
+  --accent:#8fb3e0; --accent-soft:#1f2c3c; --warm:#f0a070; --warm-soft:#3a2518;
+  --ok:#7cc79a; --ok-soft:#183025; --violet:#b3a5ef; --violet-soft:#272040;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,"Noto Sans Thai",sans-serif}
+main{max-width:980px;margin:0 auto;padding:40px 16px 80px}
+header .eyebrow{color:var(--warm);font-weight:600;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:6px 0 8px;color:var(--accent)}
+h2{font-size:24px;margin:56px 0 12px;color:var(--accent);display:flex;gap:10px;align-items:baseline}
+h2 .n{font-size:14px;color:var(--warm);font-weight:700}
+p.lead{color:var(--muted);margin:0 0 8px;font-size:17px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+figure{margin:16px 0 8px}
+figure svg{width:100%;height:auto;display:block}
+figcaption{color:var(--muted);font-size:13px;margin-top:8px}
+.big{font-size:clamp(22px,4vw,30px);font-weight:700;text-align:center;margin:6px 0}
+.big b{color:var(--warm)}
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:13px}
+.scroll{overflow-x:auto}
+code{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--accent-soft);padding:1px 5px;border-radius:5px}
+pre{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;overflow-x:auto;font:13px/1.55 ui-monospace,Menlo,monospace}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.group h3{margin:0 0 8px;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:12.5px/1 ui-monospace,Menlo,monospace;padding:6px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.g1 h3{color:var(--accent)} .g2 h3{color:var(--ok)} .g2 .chip{background:var(--ok-soft);color:var(--ok)}
+.g3 h3{color:var(--violet)} .g3 .chip{background:var(--violet-soft);color:var(--violet)}
+.g4 h3{color:var(--warm)} .g4 .chip{background:var(--warm-soft);color:var(--warm)}
+ol.rules{padding-left:20px} ol.rules li{margin:6px 0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--warm-soft);color:var(--warm)}
+.d2{background:var(--ok-soft);color:var(--ok)}
+footer{margin-top:60px;color:var(--muted);font-size:13px}
+/* svg palette */
+.s-box{fill:var(--surface);stroke:var(--line);stroke-width:1.5}
+.s-acc{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.5}
+.s-warm{fill:var(--warm-soft);stroke:var(--warm);stroke-width:1.5}
+.s-ok{fill:var(--ok-soft);stroke:var(--ok);stroke-width:1.5}
+.s-vio{fill:var(--violet-soft);stroke:var(--violet);stroke-width:1.5}
+.s-line{stroke:var(--muted);stroke-width:1.5;fill:none}
+.s-dash{stroke:var(--muted);stroke-width:1.5;fill:none;stroke-dasharray:5 5}
+.t{fill:var(--ink);font:600 14px -apple-system,Tahoma,sans-serif}
+.ts{fill:var(--muted);font:12px -apple-system,Tahoma,sans-serif}
+.tw{fill:var(--warm);font:700 13px -apple-system,Tahoma,sans-serif}
+.ta{fill:var(--accent);font:700 16px -apple-system,Tahoma,sans-serif}
+.arrow{fill:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow">Practical AI Agents with Hermes · Mahidol University</div>
+  <h1>What we learned about Hermes in 2 days</h1>
+  <p class="lead">19–20 Nov 2026 (2569 BE). The workshop labs, plus the real setup done afterwards on a Mac running Hermes Agent v0.23.2.</p>
+</header>
+
+<h2><span class="n">01</span>The big idea</h2>
+<div class="card">
+  <p class="big">Claude Code <b>builds</b>, Hermes <b>runs</b>.</p>
+  <figure>
+    <svg viewBox="0 0 900 230" role="img" aria-label="Claude Code builds SOULs and skills at the desk; Hermes runs them on schedule and messages you">
+      <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" class="arrow"/></marker></defs>
+      <rect x="20" y="40" width="260" height="150" rx="14" class="s-vio"/>
+      <text x="150" y="75" text-anchor="middle" class="ta">Claude Code</text>
+      <text x="150" y="102" text-anchor="middle" class="ts">at your desk, with you</text>
+      <text x="150" y="132" text-anchor="middle" class="t">writes SOULs, skills,</text>
+      <text x="150" y="152" text-anchor="middle" class="t">scripts, Office files</text>
+      <line x1="285" y1="115" x2="365" y2="115" class="s-line" marker-end="url(#ar)"/>
+      <text x="325" y="104" text-anchor="middle" class="ts">install</text>
+      <rect x="370" y="40" width="260" height="150" rx="14" class="s-acc"/>
+      <text x="500" y="75" text-anchor="middle" class="ta">Hermes</text>
+      <text x="500" y="102" text-anchor="middle" class="ts">always on, without you</text>
+      <text x="500" y="132" text-anchor="middle" class="t">runs bots, cron jobs,</text>
+      <text x="500" y="152" text-anchor="middle" class="t">many providers</text>
+      <line x1="635" y1="115" x2="715" y2="115" class="s-line" marker-end="url(#ar)"/>
+      <text x="675" y="104" text-anchor="middle" class="ts">reports</text>
+      <rect x="720" y="40" width="160" height="150" rx="14" class="s-warm"/>
+      <text x="800" y="80" text-anchor="middle" class="ta">You</text>
+      <text x="800" y="112" text-anchor="middle" class="ts">Telegram · LINE</text>
+      <text x="800" y="132" text-anchor="middle" class="ts">email · desktop app</text>
+      <text x="800" y="160" text-anchor="middle" class="tw">reply "ยืนยัน"</text>
+    </svg>
+  </figure>
+</div>
+
+<h2><span class="n">02</span>What a Hermes agent is made of</h2>
+<div class="card">
+  <figure>
+    <svg viewBox="0 0 900 380" role="img" aria-label="A profile contains model, SOUL, memory, skills, MCP tools; one gateway connects chat apps and cron to all profiles">
+      <rect x="250" y="20" width="400" height="230" rx="18" class="s-acc"/>
+      <text x="450" y="50" text-anchor="middle" class="ta">Profile = one complete bot</text>
+      <rect x="275" y="70" width="110" height="68" rx="10" class="s-box"/><text x="330" y="100" text-anchor="middle" class="t">Model</text><text x="330" y="120" text-anchor="middle" class="ts">Codex · Gemini…</text>
+      <rect x="395" y="70" width="110" height="68" rx="10" class="s-box"/><text x="450" y="100" text-anchor="middle" class="t">SOUL.md</text><text x="450" y="120" text-anchor="middle" class="ts">identity + rules</text>
+      <rect x="515" y="70" width="110" height="68" rx="10" class="s-box"/><text x="570" y="100" text-anchor="middle" class="t">Memory</text><text x="570" y="120" text-anchor="middle" class="ts">facts about you</text>
+      <rect x="275" y="150" width="110" height="68" rx="10" class="s-box"/><text x="330" y="180" text-anchor="middle" class="t">Skills</text><text x="330" y="200" text-anchor="middle" class="ts">SKILL.md</text>
+      <rect x="395" y="150" width="110" height="68" rx="10" class="s-box"/><text x="450" y="180" text-anchor="middle" class="t">MCP tools</text><text x="450" y="200" text-anchor="middle" class="ts">e.g. NotebookLM</text>
+      <rect x="515" y="150" width="110" height="68" rx="10" class="s-box"/><text x="570" y="180" text-anchor="middle" class="t">Cron jobs</text><text x="570" y="200" text-anchor="middle" class="ts">on a schedule</text>
+      <line x1="450" y1="252" x2="450" y2="290" class="s-line"/>
+      <rect x="250" y="290" width="400" height="60" rx="14" class="s-warm"/>
+      <text x="450" y="318" text-anchor="middle" class="t">Gateway (one background service)</text>
+      <text x="450" y="338" text-anchor="middle" class="ts">serves every profile · runs the cron ticker</text>
+      <line x1="250" y1="320" x2="170" y2="320" class="s-line"/><line x1="650" y1="320" x2="730" y2="320" class="s-line"/>
+      <rect x="20" y="285" width="150" height="70" rx="12" class="s-box"/><text x="95" y="315" text-anchor="middle" class="t">Chat apps</text><text x="95" y="335" text-anchor="middle" class="ts">Telegram · email</text>
+      <rect x="730" y="285" width="150" height="70" rx="12" class="s-box"/><text x="805" y="315" text-anchor="middle" class="t">Desktop / CLI</text><text x="805" y="335" text-anchor="middle" class="ts">&lt;name&gt; chat</text>
+      <text x="125" y="120" text-anchor="middle" class="ts">~/.hermes/profiles/</text>
+      <text x="125" y="140" text-anchor="middle" class="ts">&lt;name&gt;/</text>
+      <line x1="200" y1="130" x2="245" y2="130" class="s-dash"/>
+    </svg>
+    <figcaption>Each profile has its own config, keys, SOUL, memory and skills. One gateway serves them all.</figcaption>
+  </figure>
+</div>
+
+<h2><span class="n">03</span>The workshop labs</h2>
+<div class="card">
+  <figure>
+    <svg viewBox="0 0 900 200" role="img" aria-label="Timeline: Day 1 Labs 1 to 4, Day 2 Labs 5 to 7">
+      <line x1="40" y1="100" x2="860" y2="100" class="s-line"/>
+      <g>
+        <circle cx="80" cy="100" r="16" class="s-warm"/><text x="80" y="105" text-anchor="middle" class="tw">1</text>
+        <text x="80" y="60" text-anchor="middle" class="t">Install</text><text x="80" y="140" text-anchor="middle" class="ts">SOUL + memory</text>
+        <circle cx="190" cy="100" r="16" class="s-warm"/><text x="190" y="105" text-anchor="middle" class="tw">2</text>
+        <text x="190" y="48" text-anchor="middle" class="t">Photo →</text><text x="190" y="66" text-anchor="middle" class="t">Excel</text><text x="190" y="140" text-anchor="middle" class="ts">?? not guesses</text>
+        <circle cx="300" cy="100" r="16" class="s-warm"/><text x="300" y="105" text-anchor="middle" class="tw">3</text>
+        <text x="300" y="48" text-anchor="middle" class="t">Use Case</text><text x="300" y="66" text-anchor="middle" class="t">Canvas</text><text x="300" y="140" text-anchor="middle" class="ts">itsupport profile</text>
+        <circle cx="410" cy="100" r="16" class="s-warm"/><text x="410" y="105" text-anchor="middle" class="tw">4</text>
+        <text x="410" y="48" text-anchor="middle" class="t">Prompt →</text><text x="410" y="66" text-anchor="middle" class="t">Skill</text><text x="410" y="140" text-anchor="middle" class="ts">doc-to-sheet</text>
+      </g>
+      <line x1="465" y1="40" x2="465" y2="170" class="s-dash"/>
+      <text x="245" y="190" text-anchor="middle" class="tw">DAY 1 · 19 Nov</text>
+      <g>
+        <circle cx="530" cy="100" r="16" class="s-ok"/><text x="530" y="105" text-anchor="middle" class="t">5</text>
+        <text x="530" y="60" text-anchor="middle" class="t">Meetings</text><text x="530" y="140" text-anchor="middle" class="ts">parallel →</text><text x="530" y="156" text-anchor="middle" class="ts">xlsx + docx</text>
+        <circle cx="640" cy="100" r="16" class="s-ok"/><text x="640" y="105" text-anchor="middle" class="t">6</text>
+        <text x="640" y="60" text-anchor="middle" class="t">Site check</text><text x="640" y="140" text-anchor="middle" class="ts">cron · [SILENT]</text>
+        <circle cx="740" cy="100" r="16" class="s-ok"/><text x="740" y="105" text-anchor="middle" class="t">6B</text>
+        <text x="740" y="60" text-anchor="middle" class="t">Deploy</text><text x="740" y="140" text-anchor="middle" class="ts">Cloudflare + cron</text>
+        <circle cx="835" cy="100" r="16" class="s-ok"/><text x="835" y="105" text-anchor="middle" class="t">7</text>
+        <text x="835" y="48" text-anchor="middle" class="t">Mini</text><text x="835" y="66" text-anchor="middle" class="t">project</text><text x="835" y="140" text-anchor="middle" class="ts">your own task</text>
+      </g>
+      <text x="680" y="190" text-anchor="middle" class="tw" style="fill:var(--ok)">DAY 2 · 20 Nov</text>
+    </svg>
+  </figure>
+  <div class="scroll"><table>
+    <tr><th>Lab</th><th>What you did</th><th>Key lesson</th></tr>
+    <tr><td><span class="pill">1</span> Install, identity, memory</td><td>Installed Hermes, wrote the secretary SOUL, tested memory</td><td>The SOUL decides behaviour; memory makes it personal</td></tr>
+    <tr><td><span class="pill">2</span> Photo → Excel</td><td>Receipts/forms into a 6-column table in <code>Hermes_Lab2.xlsx</code></td><td>Unreadable values become <code>??</code></td></tr>
+    <tr><td><span class="pill">3</span> Use Case Canvas</td><td>Filled the canvas, created the <code>itsupport</code> profile</td><td>One job = one profile; bots redirect to each other</td></tr>
+    <tr><td><span class="pill">4</span> Prompt → Skill</td><td>Turned the Lab 2 prompt into the <code>doc-to-sheet</code> skill</td><td>Skills make good prompts reusable and improvable</td></tr>
+    <tr><td><span class="pill d2">5</span> Meeting summaries</td><td>3 meetings at once → Excel task table + Word</td><td>Parallel subagents; check evidence with <code>/review</code></td></tr>
+    <tr><td><span class="pill d2">6</span> Morning site check</td><td><code>site-health</code> skill + cron job</td><td><code>[SILENT]</code> unless something is wrong</td></tr>
+    <tr><td><span class="pill d2">6B</span> Deploy + monitor</td><td>Site to Cloudflare Workers, watched by cron</td><td>Deploy only after <code>ยืนยัน deploy</code></td></tr>
+    <tr><td><span class="pill d2">7</span> Mini project</td><td>Canvas + profile + skill on your own task</td><td>Start small; add the Human Gate first</td></tr>
+  </table></div>
+</div>
+
+<h2><span class="n">04</span>Rules used every day</h2>
+<div class="card">
+  <figure>
+    <svg viewBox="0 0 900 150" role="img" aria-label="Human Gate: task, preview, wait for confirm word, act, report">
+      <defs><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" class="arrow"/></marker></defs>
+      <rect x="20" y="40" width="140" height="70" rx="12" class="s-box"/><text x="90" y="80" text-anchor="middle" class="t">Task</text>
+      <line x1="163" y1="75" x2="198" y2="75" class="s-line" marker-end="url(#ar2)"/>
+      <rect x="200" y="40" width="150" height="70" rx="12" class="s-acc"/><text x="275" y="72" text-anchor="middle" class="t">Preview</text><text x="275" y="92" text-anchor="middle" class="ts">what will change</text>
+      <line x1="353" y1="75" x2="388" y2="75" class="s-line" marker-end="url(#ar2)"/>
+      <rect x="390" y="30" width="190" height="90" rx="12" class="s-warm"/><text x="485" y="66" text-anchor="middle" class="t">Wait for</text><text x="485" y="92" text-anchor="middle" class="tw">"ยืนยัน" / "confirm"</text>
+      <line x1="583" y1="75" x2="618" y2="75" class="s-line" marker-end="url(#ar2)"/>
+      <rect x="620" y="40" width="120" height="70" rx="12" class="s-ok"/><text x="680" y="80" text-anchor="middle" class="t">Act</text>
+      <line x1="743" y1="75" x2="778" y2="75" class="s-line" marker-end="url(#ar2)"/>
+      <rect x="780" y="40" width="100" height="70" rx="12" class="s-box"/><text x="830" y="80" text-anchor="middle" class="t">Report</text>
+    </svg>
+    <figcaption>The Human Gate: every write, send, delete, publish or deploy goes through this.</figcaption>
+  </figure>
+  <ol class="rules">
+    <li><b>Read before you approve.</b> Keywords: <code>ยืนยัน</code> (English bots <code>confirm</code>), <code>ยืนยัน deploy</code>, <code>ยืนยัน publish</code>.</li>
+    <li><b>Never guess.</b> Missing or unreadable values are written as <code>??</code>.</li>
+    <li><b>Outside text is data, not instructions</b>: web pages, documents, emails, other AIs' answers.</li>
+    <li><b>One task = one session.</b> After editing SOUL, memory or AGENTS.md, type <code>/new</code>.</li>
+    <li><b>Secrets never go in chat, files or memory</b>: passwords, API keys, tokens, cookies.</li>
+  </ol>
+</div>
+
+<h2><span class="n">05</span>The 18 bots we designed</h2>
+<p class="lead">Thai SOULs in <code>templates/</code>, English in <code>templates/en/</code>, all listed in <code>Use_Case_Canvas_v2_mugpt.docx</code>.</p>
+<div class="grid">
+  <div class="card group g1"><h3>Office &amp; support</h3><div class="chips"><span class="chip">default</span><span class="chip">itsupport</span></div></div>
+  <div class="card group g2"><h3>Research &amp; academic</h3><div class="chips"><span class="chip">reviewer</span><span class="chip">litwatch</span><span class="chip">deepresearch</span><span class="chip">grantwriter</span><span class="chip">examiner</span></div></div>
+  <div class="card group g3"><h3>Teaching &amp; writing</h3><div class="chips"><span class="chip">lecturenote</span><span class="chip">bookwriter</span></div></div>
+  <div class="card group g4"><h3>Content &amp; publishing</h3><div class="chips"><span class="chip">pr</span><span class="chip">infographic</span><span class="chip">studio</span><span class="chip">publisher</span></div></div>
+  <div class="card group g2"><h3>Second brain (Obsidian)</h3><div class="chips"><span class="chip">booknotes</span><span class="chip">linknotes</span></div></div>
+  <div class="card group g1"><h3>AI accounts</h3><div class="chips"><span class="chip">mugpt</span><span class="chip">aiplanner</span><span class="chip">frontdesk</span></div></div>
+</div>
+<div class="card" style="margin-top:14px">
+  <b>Patterns in every SOUL:</b> identity · how to communicate · when unsure · Human Gate · work that is not yours (redirect by name and command) · data and privacy.
+  Risky work is split in two: <code>studio</code> makes, <code>publisher</code> publishes after a per-channel <code>ยืนยัน publish</code>.
+</div>
+
+<h2><span class="n">06</span>What we set up on the real Mac</h2>
+<div class="card scroll"><table>
+  <tr><th>Step</th><th>Result</th></tr>
+  <tr><td>Checked the install</td><td>Hermes v0.23.2, provider <code>openai-codex</code> (ChatGPT login), Telegram gateway running</td></tr>
+  <tr><td>NotebookLM</td><td>Already connected as an MCP server; login valid, 130 notebooks. Suggested hiding delete / share-public tools</td></tr>
+  <tr><td>Gemini</td><td>Add with a <code>GOOGLE_API_KEY</code>; free tier has low limits and the AI Pro subscription does not cover the API</td></tr>
+  <tr><td><code>aiplanner</code></td><td>Profile + English SOUL; <code>~/hermes-lab/ai/</code> with roster, backlog (10 sample tasks), log, plans</td></tr>
+  <tr><td>Gateway restart</td><td>Scheduler serves every profile; heartbeat checked</td></tr>
+  <tr><td><code>frontdesk</code></td><td>Built, smoke-tested (1 Codex task, 1 queued for Claude), independently reviewed, fixes applied</td></tr>
+  <tr><td>Bot avatars</td><td>Desktop app → Bots → right-click → Edit Profile</td></tr>
+</table></div>
+<pre>hermes profile create &lt;name&gt; --clone     # new bot from the default one
+cp templates/en/SOUL-&lt;name&gt;.md ~/.hermes/profiles/&lt;name&gt;/SOUL.md
+&lt;name&gt; chat                              # talk to it
+&lt;name&gt; cron status                       # is the scheduler serving it?
+hermes gateway restart                   # if cron is not ticking after adding profiles
+hermes mcp test notebooklm               # check an MCP server
+nlm login                                # re-login NotebookLM when it expires</pre>
+
+<h2><span class="n">07</span>Using several AI accounts wisely</h2>
+<div class="card">
+  <figure>
+    <svg viewBox="0 0 900 300" role="img" aria-label="frontdesk flow: tasks go to Codex by default; Claude-worthy tasks are queued as briefs for Claude Code">
+      <defs><marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" class="arrow"/></marker></defs>
+      <rect x="20" y="115" width="150" height="70" rx="12" class="s-warm"/><text x="95" y="145" text-anchor="middle" class="t">New task</text><text x="95" y="165" text-anchor="middle" class="ts">phone or desktop</text>
+      <line x1="173" y1="150" x2="223" y2="150" class="s-line" marker-end="url(#ar3)"/>
+      <rect x="225" y="105" width="190" height="90" rx="14" class="s-acc"/><text x="320" y="140" text-anchor="middle" class="ta">frontdesk</text><text x="320" y="163" text-anchor="middle" class="ts">runs on Codex · decides</text>
+      <path d="M418,130 C470,130 470,65 520,65" class="s-line" marker-end="url(#ar3)"/>
+      <path d="M418,170 C470,170 470,235 520,235" class="s-line" marker-end="url(#ar3)"/>
+      <rect x="522" y="30" width="358" height="70" rx="12" class="s-ok"/><text x="701" y="60" text-anchor="middle" class="t">Codex is enough → done now</text><text x="701" y="80" text-anchor="middle" class="ts">~/hermes-lab/desk/&lt;date&gt;-&lt;task&gt;/</text>
+      <rect x="522" y="200" width="358" height="70" rx="12" class="s-vio"/><text x="701" y="230" text-anchor="middle" class="t">Needs Claude → hand-off brief</text><text x="701" y="250" text-anchor="middle" class="ts">for-claude/ · "do the next frontdesk task"</text>
+      <text x="425" y="88" text-anchor="start" class="ts">most tasks</text>
+      <text x="425" y="222" text-anchor="start" class="ts">code · Office · P1</text>
+    </svg>
+    <figcaption><code>frontdesk</code> saves Claude allowance: Codex does most work; Claude gets only what needs it. <code>aiplanner</code> plans the week every Sunday.</figcaption>
+  </figure>
+  <div class="scroll"><table>
+    <tr><th>AI</th><th>Best for</th><th>Allowance (roster.md)</th></tr>
+    <tr><td>Claude Code (Max)</td><td>Local files, code, Office files, careful writing, final checks</td><td>5-hour rolling session + weekly cap, reset Sun 11:00</td></tr>
+    <tr><td>ChatGPT / MUGPT Pro</td><td>Images, Deep Research, data analysis; everyday Hermes work (Codex)</td><td>3 images + 5 Deep Research / 24 h</td></tr>
+    <tr><td>Gemini (AI Pro)</td><td>Very long documents, YouTube, Google Workspace, NotebookLM</td><td>?? / day (to check)</td></tr>
+  </table></div>
+  <p class="lead" style="margin-top:12px;font-size:14px">Scripted use (<code>claude -p</code>, <code>codex exec</code>, <code>gemini -p</code>) may bill differently from the app, so keep <code>run_via_cli: no</code> until checked.</p>
+</div>
+
+<h2><span class="n">08</span>Hermes vs Claude Code, honestly</h2>
+<div class="grid">
+  <div class="card"><h3 style="margin-top:0;color:var(--violet)">Claude Code is better at</h3>
+    <ul><li>Writing and editing files</li><li>Coding and debugging</li><li>Office documents with checks</li><li>Deep one-off work at the desk</li></ul></div>
+  <div class="card"><h3 style="margin-top:0;color:var(--accent)">Hermes is better at</h3>
+    <ul><li>Messaging you first, on a schedule, in Telegram / LINE / email</li><li>Many separate bots other people can use without an AI account</li><li>Any provider, including your ChatGPT plan or local models</li><li>Self-hosting so sensitive data stays on university machines</li></ul></div>
+</div>
+<p class="lead" style="margin-top:10px;font-size:14px">Claude also has phone apps and Remote Control, so "chat from the phone" alone is not a reason. Details in <code>guides/Hermes_vs_Claude_Code.md</code>.</p>
+
+<h2><span class="n">09</span>Next steps</h2>
+<div class="card"><ol class="rules">
+  <li>Fill the <code>??</code> in <code>~/hermes-lab/ai/roster.md</code> (Gemini daily limits, Claude weekly used).</li>
+  <li>Give <code>frontdesk</code> its own Telegram bot (@BotFather → <code>frontdesk setup</code>).</li>
+  <li>Run <code>aiplanner</code> and <code>frontdesk</code> for 2 weeks, scoring results 1–5 in <code>log.csv</code>.</li>
+  <li>Install the next bots you need (<code>mugpt</code>, <code>booknotes</code>, <code>litwatch</code>) the same way.</li>
+  <li>Rebuild <code>../hermes-course-kit-v2.zip</code> before sharing the kit.</li>
+</ol></div>
+
+<footer>Practical AI Agents with Hermes · Mahidol University · summary written 20 Nov 2026 · Markdown version: Hermes_2Day_Summary.md</footer>
+</main>
+</body>
+</html>
