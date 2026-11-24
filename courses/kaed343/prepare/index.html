@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>เตรียมตัวก่อนเรียน · KAED343 · แผ่นดินไหว</title>
+<meta name="description" content="KAED343 Noise and Vibration Control ช่วงแผ่นดินไหว: ขนาด ตำแหน่ง ความถี่ ความรุนแรง และการลดผลกระทบ · 3 บทเรียน 8 Lab แบบทดสอบและแบบฝึกหัด 9 ชุด จากข้อมูลจริงของสถานีไทย">
+<meta name="theme-color" content="#0f1b2d">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}var o="win";try{o=localStorage.getItem("os")||(/Mac/.test(navigator.platform)?"mac":"win")}catch(e){}document.documentElement.setAttribute("data-os",o)</script>
+</head>
+<body>
+<a class="skip" href="#main">ข้ามไปเนื้อหา</a>
+<header class="site-header">
+  <nav class="nav" aria-label="main">
+    <a class="brand" href="../"><span class="brand-mark">K</span><span>KAED343 · แผ่นดินไหว<small>Noise and Vibration Control · ม.มหิดล กาญจนบุรี</small></span></a>
+    <button class="icon-btn menu-btn" id="menu-btn" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="nav-links"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <div class="nav-links" id="nav-links">
+<a href="../">หน้าแรก</a>
+<a href="../prepare/" aria-current="page">เตรียมตัว</a>
+<a href="../lesson1/">บทที่ 1</a>
+<a href="../lesson2/">บทที่ 2</a>
+<a href="../lesson3/">บทที่ 3</a>
+<a href="../labs/">Labs</a>
+<a href="../quiz/">แบบทดสอบ</a>
+<a href="../cheatsheet/">สรุปสูตร</a>
+<a href="../downloads/">ดาวน์โหลด</a>
+    </div>
+    <button class="icon-btn" id="theme-btn" aria-label="สลับโหมดสว่าง/มืด"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg></button>
+  </nav>
+</header>
+<main id="main">
+<div class="wrap"><div class="doc"><nav class="toc" aria-label="สารบัญ"><h2>สารบัญ</h2><ol><li><a href="#checklist">สิ่งที่ต้องเตรียม</a></li><li><a href="#tools">ใช้ Sheets และ Colab ใน 1 นาที</a></li><li><a href="#data">ข้อมูลที่ใช้</a></li></ol><div class="tools"></div></nav><article class="prose"><p class="kicker">ก่อนเริ่ม</p><h1>เตรียมตัวก่อนเรียน</h1><p class="lead">ใช้เวลาราว 10 นาที ไม่ต้องติดตั้งโปรแกรม Lab 1–3, 7 และ 8 ใช้ Google Sheets ส่วน Lab 4–6 ใช้ Google Colab ที่คัดลอกโค้ดจากการ์ดได้</p><section id="checklist"><h2>สิ่งที่ต้องเตรียม</h2><ul class="checklist"><li><label><input type="checkbox" data-key="prep-0"><span>บัญชี <strong>Google</strong> ที่เปิด Google Sheets และ colab.research.google.com ได้</span></label></li><li><label><input type="checkbox" data-key="prep-1"><span>ดาวน์โหลด <a href="../downloads/#lab-1">EQ_FactSheet_KAED343.xlsx</a> แล้ว Import เข้า Google Sheets</span></label></li><li><label><input type="checkbox" data-key="prep-2"><span>เครื่องคิดเลขที่มี log และ √ · ไม้บรรทัด · วงเวียน (Lab 3)</span></label></li><li><label><input type="checkbox" data-key="prep-3"><span>พิมพ์ <a href="../downloads/#lab-3">แผนที่สถานีแม่ลาว</a> บนกระดาษ A4 (Lab 3)</span></label></li><li><label><input type="checkbox" data-key="prep-4"><span>ทบทวนเรื่อง dB และความถี่จากครึ่งแรกของวิชา (บทที่ 2)</span></label></li></ul></section><section id="tools"><h2>ใช้ Sheets และ Colab ใน 1 นาที</h2><ol class="flow"><li><strong>Sheets</strong>: คลิกช่องที่การ์ดบอก วางสูตร กด Enter แล้วลากจุดมุมขวาล่างลงเพื่อคัดลอกสูตรทั้งคอลัมน์</li><li><strong>Colab</strong>: กด <strong>+ Code</strong> วางโค้ด แล้วกด <strong>Shift + Enter</strong> · เปิดใหม่หลังพักนานให้กด Runtime → Run all</li><li>ดูช่อง <strong>ควรเห็น</strong> ก่อนไปขั้นถัดไป ถ้าไม่ตรงให้ดูช่อง <strong>ไม่ได้ผล?</strong></li></ol></section><section id="data"><h2>ข้อมูลที่ใช้</h2><p>ข้อมูลทั้งหมดเป็นข้อมูลแผ่นดินไหวสาธารณะหรือที่เผยแพร่แล้ว ไม่มีข้อมูลส่วนบุคคล · ค่า PGA สถานีกรุงเทพฯ มาจากรายงาน Stolte et al. (2026) พิกัดเป็นค่าประมาณ</p></section></article></div></div>
+</main>
+<footer class="site-footer"><div class="wrap"><div>KAED343 Noise and Vibration Control · ช่วงแผ่นดินไหว (SB)</div><div>ข้อมูล DMR · IRIS DMC · USGS · ฟอนต์ Sarabun (SIL OFL)</div></div></footer>
+<script>window.COURSE_ID="kaed343-eq-2569";window.COURSE_I18N={"skip": "ข้ามไปเนื้อหา", "menu": "เปิดเมนู", "theme": "สลับโหมดสว่าง/มืด", "home": "หน้าแรก", "toc": "สารบัญ", "copy": "คัดลอก", "copied": "คัดลอกแล้ว", "clickToCopy": "คลิกเพื่อคัดลอก", "copiedPrefix": "คัดลอก: ", "stepsDone": "ทำแล้ว {0} จาก {1} ขั้น", "notStarted": "ยังไม่เริ่ม", "allDone": "ทำครบแล้ว", "resetConfirm": "ล้างขั้นที่ติ๊กไว้ทั้งหมด?", "reset": "ล้างขั้นที่ติ๊กไว้", "stepCards": "การ์ดขั้นตอน", "see": "ควรเห็น", "fix": "ไม่ได้ผล? ดูวิธีแก้", "passed": "ขั้นนี้ผ่านแล้ว", "optional": "เสริม", "cmdsFor": "คำสั่งสำหรับ", "os": "ระบบปฏิบัติการ", "files": "ไฟล์", "prev": "ก่อนหน้า", "next": "ถัดไป", "search": "ค้นหา", "all": "ทั้งหมด", "noResult": "ไม่พบคำสั่งที่ค้นหา", "download": "ดาวน์โหลด", "updated": "อัปเดตล่าสุด", "day_labs": "Lab ในช่วงนี้", "quiz": "แบบทดสอบ", "check": "ตรวจคำตอบ", "retry": "ทำใหม่", "score": "ได้ {0} จาก {1} ข้อ", "right": "ถูกต้อง", "wrong": "ยังไม่ถูก", "answerIs": "คำตอบที่ถูก: ", "numHint": "ใส่ตัวเลข", "example": "ตัวอย่าง", "nQuestions": "{0} ข้อ", "w_terminal": "Terminal", "w_ps": "PowerShell", "w_chat": "หน้า Chat", "w_field": "วางในช่อง", "w_folder": "โฟลเดอร์", "w_browser": "เบราว์เซอร์", "w_editor": "ตัวแก้ไขไฟล์", "w_app": "โปรแกรม", "w_win": "Windows", "w_mac": "macOS"};</script>
+<script src="../assets/app.js" defer></script>
+</body>
+</html>
